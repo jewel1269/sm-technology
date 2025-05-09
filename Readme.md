@@ -14,8 +14,9 @@ The system includes business logic enforcing class and booking limits to ensure 
 
 ## 🧩 Relational Diagram
 
-You can view the relational diagram here:
-**\[https://github.com/jewel1269/sm-technology/blob/main/src/image/diagram.png]**
+You can view the relational diagram here:  
+![Relational Diagram](https://github.com/jewel1269/sm-technology/blob/main/src/image/diagram.png?raw=true)
+
 
 ---
 
@@ -174,7 +175,8 @@ DATABASE_URL=your_mongodb
 
 ## 🌐 Live Hosting Link
 
-**\[https://sm-technology-green.vercel.app/]**
+![Relational Diagram](https://sm-technology-green.vercel.app/)
+
 
 ---
 
