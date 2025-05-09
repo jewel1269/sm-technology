@@ -175,7 +175,8 @@ DATABASE_URL=your_mongodb
 
 ## 🌐 Live Hosting Link
 
-![Relational Diagram](https://sm-technology-green.vercel.app/)
+[https://sm-technology-green.vercel.app/](https://sm-technology-green.vercel.app/)
+
 
 
 ---
