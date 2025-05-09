@@ -31,3 +31,6 @@ app.get("/", (req, res) => {
 app.listen(port, () => {
   console.log(`SM-Technology server at running port: http://localhost:${port}`);
 });
+
+
+export default app;

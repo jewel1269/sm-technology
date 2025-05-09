@@ -156,7 +156,7 @@ You can view the relational diagram here:
 ## ⚙️ How to Run Locally
 
 ```bash
-git clone https://github.com/jewel1269/gym-management-system.git
+git clone https://github.com/jewel1269/sm-technology.git
 cd gym-management-system
 npm install
 npm start
@@ -174,7 +174,7 @@ DATABASE_URL=your_mongodb
 
 ## 🌐 Live Hosting Link
 
-**\[Insert your deployed link here]**
+**\[https://sm-technology-green.vercel.app/]**
 
 ---
 
