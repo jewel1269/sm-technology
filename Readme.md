@@ -15,7 +15,7 @@ The system includes business logic enforcing class and booking limits to ensure 
 ## 🧩 Relational Diagram
 
 You can view the relational diagram here:
-**\[https://github.com/jewel1269/sm-technology/blob/main/src/image/ChatGPT%20Image%20May%209%2C%202025%2C%2003_32_47%20PM.png]**
+**\[https://github.com/jewel1269/sm-technology/blob/main/src/image/diagram.png]**
 
 ---
 
