@@ -24,6 +24,10 @@ app.use("/api/classes", classRoutes);
 
 app.use(errorMiddleware);
 
+app.get("/", (req, res) => {
+  res.send("SM-Technology Server is Running!");
+});
+
 app.listen(port, () => {
   console.log(`SM-Technology server at running port: http://localhost:${port}`);
 });
