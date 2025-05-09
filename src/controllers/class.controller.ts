@@ -72,6 +72,7 @@ export const cancelBooking = async (
     const userId = req.user.id;
     const schedule = await ClassSchedule.findById(classId);
 
+    if (!schedule) throw { statusCode: 404, message: "Schedule not found" };
     schedule.trainees = schedule.trainees.filter(
       (id) => id.toString() !== userId
     );

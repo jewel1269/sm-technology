@@ -1,6 +1,7 @@
 import express from "express";
-import { bookClass, cancelBooking, createSchedule, getSchedules } from "../controllers/class.controller.js";
-import { isAdmin, isTrainee, verifyToken } from "../middlewares/auth.middleware.js";
+import { bookClass, cancelBooking, createSchedule, getSchedules } from "../controllers/class.controller";
+import { isAdmin, isTrainee, verifyToken } from "../middlewares/auth.middleware";
+
 
 const router = express.Router();
 router.get("/", verifyToken, getSchedules);
