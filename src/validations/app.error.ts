@@ -1,10 +1,10 @@
 // utils/AppError.js
 
 export default class AppError extends Error {
-    constructor(message, statusCode) {
-      super(message);
-      this.statusCode = statusCode;
-      Error.captureStackTrace(this, this.constructor);
-    }
+  statusCode: number;
+  constructor(message: string, statusCode: number) {
+    super(message);
+    this.statusCode = statusCode;
+    Error.captureStackTrace(this, this.constructor);
   }
-  
+}
